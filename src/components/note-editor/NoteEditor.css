@@ -1,0 +1,22 @@
+.note-editor {
+  background-color: var(--secondary-color);
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin: 2rem auto;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+input,
+textarea {
+  margin: 0.5rem;
+  border: none;
+  outline: none;
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+}
+
+.note-desc {
+  height: 4rem;
+}

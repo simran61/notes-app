@@ -1,0 +1,12 @@
+.nav_bar {
+  padding: 0 2.4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(186, 225, 242, 1);
+}
+
+.brand_name {
+  font-family: "Kaushan Script", cursive;
+  color: var(--black-txt);
+}

@@ -1,0 +1,29 @@
+.notes-page {
+  background: linear-gradient(
+    180deg,
+    rgba(186, 225, 242, 1) 0%,
+    rgba(255, 255, 255, 1) 31%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+.nav-link {
+  margin: 0.7rem;
+  color: var(--primary-dark);
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.notes-container {
+  padding: 2rem 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.note-container {
+  flex-basis: 20%;
+  border-radius: 1rem;
+  margin: 1rem;
+  padding: 0 1rem;
+}

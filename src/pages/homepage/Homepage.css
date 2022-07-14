@@ -1,0 +1,136 @@
+.container {
+  background: linear-gradient(
+    180deg,
+    rgba(186, 225, 242, 1) 0%,
+    rgba(255, 255, 255, 1) 31%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  position: relative;
+}
+
+.header {
+  padding: 2rem;
+}
+
+.header_img_top {
+  position: absolute;
+  top: -1rem;
+  left: 4rem;
+  width: 16rem;
+}
+
+.header_img_bottom {
+  position: absolute;
+  bottom: 4rem;
+  right: 3rem;
+  width: 17rem;
+}
+
+.auth_img {
+  position: absolute;
+  bottom: 9rem;
+  left: 12rem;
+  width: 4.5rem;
+  filter: drop-shadow(0.3rem 0.3rem 0.75rem rgb(255, 109, 109));
+}
+
+.pencil_img {
+  position: absolute;
+  top: 5rem;
+  right: 8rem;
+  width: 4.5rem;
+  filter: drop-shadow(0.3rem 0.3rem 0.75rem rgb(116, 209, 58));
+}
+
+.tagline_top {
+  background-color: rgb(246, 247, 201);
+  width: fit-content;
+  border-radius: 2rem;
+  padding: 0.3rem 0.7rem;
+  display: flex;
+  margin: auto;
+  color: rgb(246, 187, 24);
+  font-weight: 600;
+}
+
+.primary_heading {
+  margin: 1rem;
+  font-size: 5rem;
+  font-weight: bold;
+  /* font-family: "Cinzel Decorative", cursive; */
+  font-family: "Raleway", sans-serif;
+}
+
+.tagline_bottom {
+  color: var(--grey-txt);
+  width: 35%;
+  display: flex;
+  margin: auto;
+}
+
+/* FEATURES STARTS */
+
+.features {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 7rem;
+  align-items: center;
+}
+
+.features_heading {
+  text-align: left;
+  flex-basis: 20%;
+}
+
+.mr_0 {
+  margin: 0;
+}
+
+.features_container {
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 70%;
+  padding-bottom: 7rem;
+  position: relative;
+}
+
+.arrow_top {
+  position: absolute;
+  height: 2rem;
+  top: 1rem;
+  right: 15rem;
+}
+
+.arrow_bottom {
+  position: absolute;
+  height: 3rem;
+  bottom: 3rem;
+  left: 11rem;
+}
+
+.feature {
+  flex-basis: 23%;
+  background-color: var(--white-txt);
+  padding: 1rem;
+  text-align: left;
+  border-radius: 1rem;
+  box-shadow: 26px 42px 40px -12px rgba(217, 217, 236, 1);
+}
+
+.feature_middle {
+  position: relative;
+  top: 4rem;
+}
+
+.feature_img {
+  height: 5rem;
+}
+
+.feature_heading {
+  margin: 0;
+}
+
+.feature_txt {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+}
