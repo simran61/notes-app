@@ -1,0 +1,47 @@
+footer {
+  background-color: whitesmoke;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer_left {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 30%;
+  text-align: left;
+}
+
+.footer_heading {
+  font-size: 1.5rem;
+}
+
+.mr_tb {
+  margin: 8px 0;
+}
+
+.footer_img {
+  height: 6.25rem;
+  width: 6.25rem;
+  object-fit: cover;
+}
+
+.footer_right {
+  flex-basis: 30%;
+  text-align: left;
+}
+
+.footer_images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.social_icon {
+  width: 3rem;
+}
+
+.footer_center {
+  flex-basis: 15%;
+  text-align: left;
+}
