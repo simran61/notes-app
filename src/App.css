@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Kaushan+Script&family=Lato:wght@300;400;700;900&family=Raleway:wght@500;600;700;800;900&display=swap");
+
+/* font-family: 'Cinzel Decorative', cursive;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Raleway', sans-serif; */
+
+:root {
+  --primary-dark: #5b1a8b;
+  --primary-color: #9170e6;
+  --secondary-color: #d9d9ec;
+  --black-txt: #000;
+  --white-txt: rgb(249, 245, 248);
+  --grey-txt: grey;
+}
+
+.App {
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.color_primary {
+  color: var(--primary-color);
+}
+
+.color_grey {
+  color: var(--grey-txt);
+}
+
+.txt_link,
+.txt_link_btn {
+  text-decoration: none;
+}
+
+.mr_sm {
+  margin: 1rem;
+}
+
+.btn {
+  padding: 0.7rem 1.2rem;
+  border-radius: 2rem;
+  border: none;
+  outline: none;
+  background-color: var(--primary-color);
+  color: var(--white-txt);
+}
+
+.btn_primary {
+  font-size: 1.2rem;
+  margin: 2rem;
+}
+
+.shadow {
+  box-shadow: 13px 14px 49px -7px var(--primary-color);
+}
+
+hr {
+  width: 10%;
+  border: 0.4rem dotted var(--secondary-color);
+  border-top: 0;
+}
