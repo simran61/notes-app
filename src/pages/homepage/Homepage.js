@@ -98,60 +98,6 @@ function Homepage() {
           </div>
         </div>
       </div>
-
-      {/* <div className="features">
-        <h1 className="secondary_heading">Some Features...</h1>
-        <div className="features_container">
-          <div className="feature">
-            <img
-              className="feature_img"
-              src="/assets/images/4.png"
-              alt="notepad"
-            />
-            <h3 className="feature_heading">Archive Your Notes</h3>
-            <p className="feature_txt">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis
-              perfer endis.
-            </p>
-          </div>
-          <div className="feature">
-            <img
-              className="feature_img"
-              src="/assets/images/7.png"
-              alt="notepad"
-            />
-            <h3 className="feature_heading">Authentication</h3>
-            <p className="feature_txt">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis
-              perfer endis.
-            </p>
-          </div>
-          <div className="feature">
-            <img
-              className="feature_img"
-              src="/assets/images/8.png"
-              alt="notepad"
-            />
-            <h3 className="feature_heading">Date And Time</h3>
-            <p className="feature_txt">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis
-              perfer endis.
-            </p>
-          </div>
-          <div className="feature">
-            <img
-              className="feature_img"
-              src="/assets/images/5.png"
-              alt="notepad"
-            />
-            <h3 className="feature_heading">Background Colors</h3>
-            <p className="feature_txt">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis
-              perfer endis.
-            </p>
-          </div>
-        </div>
-      </div> */}
     </>
   );
 }
